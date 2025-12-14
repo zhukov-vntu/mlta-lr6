@@ -9,24 +9,27 @@ cd task1
 ## 2. Install dependencies
 
 Create virtual environment:
-
+```shell
 python -m venv .venv
-
+```
 ### Activate venv
 
 **Linux / macOS**
+```shell
 source .venv/bin/activate
-
+```
 **Windows (PowerShell)**
+```shell
 .venv\Scripts\Activate.ps1
-
+```
 **Windows (CMD)**
+```shell
 .venv\Scripts\activate.bat
-
+```
 Install dependencies:
-
+```shell
 pip install -r requirements.txt
-
+```
 ## 3. Run main.py
 
 ```shell
